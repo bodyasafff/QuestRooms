@@ -12,6 +12,7 @@ namespace QuestRooms.DAL.Entities
         public virtual City City { get; set; }
         public virtual Street Street { get; set; }
         public virtual Country Country { get; set; }
+        public string HouseNumber { get; set; }
         public virtual ICollection<Room>Rooms { get; set; }
     }
 }
