@@ -9,7 +9,7 @@ namespace QuestRooms.DAL
         public RoomsContext()
             : base("name=RoomsContext")
         {
-        }
+        }  
          
     }
 }
