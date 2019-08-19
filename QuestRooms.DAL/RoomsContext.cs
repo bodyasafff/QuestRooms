@@ -10,6 +10,6 @@ namespace QuestRooms.DAL
             : base("name=RoomsContext")
         {
         }
-
+         
     }
 }
